@@ -26,3 +26,29 @@ body {
 .icon-link {
   text-decoration: none;
 }
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 108px;
+}
+
+.profile-text {
+  color: #FFF9F9;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
