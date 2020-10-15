@@ -43,7 +43,7 @@ body {
 
 .profile-text {
   color: #FFF9F9;
-  font-weight: bold;
+  font-size: 24px;
   margin-bottom: 8px;
 }
 
@@ -51,4 +51,34 @@ body {
   width: 160px;
   height: 160px;
   border-radius: 50%;
+}
+
+#nav-items {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  padding: 0 15px;
+}
+
+a {
+  color: #3D3D3D;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav-item {
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+#selected {
+  color: #DD0000;
+  font-weight: bold;
 }
