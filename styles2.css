@@ -1,0 +1,159 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  height: 100vh;
+}
+
+#header-container {
+  display: flex;
+  height: 25%;
+  justify-content: space-between;
+  padding: 10px 80px 0;
+  background-image: linear-gradient(#EB0049, #DD0000);
+}
+
+#logo {
+  height: 40px;
+}
+
+#profile-icon {
+  margin-right: 15px;
+}
+
+.icon-link {
+  text-decoration: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.back-icon-container {
+  margin-left: 140px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.back-icon {
+  width: 17px;
+  height: 17px;
+}
+
+.back-icon-text {
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon-image {
+  margin-right: 100px;
+  height: 180px;
+}
+
+.pokemon-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.pokemon-identification {
+  display: flex;
+  align-items: flex-end;
+}
+
+.pokemon-name-text {
+  font-size: 48px;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.pokemon-id-text {
+  font-size: 24px;
+  color: #3D3D3D;
+}
+
+.pokemon-type {
+  background-color: #818181;
+  border-radius: 5px;
+  color: #F4F4F4;
+  padding: 1px 6px 1px;
+  margin-right: 8px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.pokemon-attr-text {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.attributes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100px;
+  align-items: flex-start;
+}
+
+.attr-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attr-title {
+  margin-right: 340px;
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+
+.attr-name {
+  font-size: 18px;
+  /* margin-right: 16px; */
+}
+
+.green {
+  background-color: #00C162;
+}
+
+.circles-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.circles {
+  display: flex;
+  align-items: flex-end;
+  /* position: fixed; */
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+}
